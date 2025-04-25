@@ -2,6 +2,8 @@ import os
 import pygame, sys
 from random import randint
 
+# Let's see whether this change is updated in github automatically. 
+
 screen = pygame.display.set_mode((800, 400))
 pygame.init()
 os.chdir(r"D:\[03] Codes\[08] Python codes\[01] Pygame projects\[01] Restaurant App Project")
