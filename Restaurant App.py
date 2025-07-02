@@ -236,7 +236,7 @@ while True:
     if order_confirmed:
         pygame.draw.rect(screen, 'yellowgreen', (100, 50, 600, 300), border_radius = 20)
         font = pygame.font.Font(None, 60)
-        text = font.render("Thank you for your order:)", True, (0, 0, 0))
+        text = font.render("Thank you for your order:)", True, (0, 255, 0))
         text_rect = text.get_rect(center = (400, 150))
         screen.blit(text, text_rect)
 
